@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap");
+
+body {
+  font-family: "Noticia Text", serif;
+  background-color: #eae5e5;
+  color: rgb(99, 83, 83);
+}
+
+.navbar {
+  background-color: #eae5e5;
+}
+
+.navbar-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-70 {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.secondary-image {
+  width: 250px;
+  height: auto;
+  border-radius: 25%;
+}
+
+.profile-picture {
+  width: 250px;
+  height: auto;
+}
+.button-picture {
+  width: 100px;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.color-container {
+  border: 1px solid red;
+  height: 100px;
+}
+
+.button-badge {
+  height: 7rem;
+  width: 7rem;
+  margin: 0px 10px;
+}
+
+.badge-inner-text {
+  position: relative;
+  top: 3rem;
+  color: white;
+}
+.badge-inner-text:hover {
+  opacity: 0.5;
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0 5px;
+  color: inherit;
+}
+
+.skill-icon {
+  font-size: 5rem;
+  margin: 10px;
+}
+
+.skill-badges {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px 5px;
+}
+
+.content-container {
+  padding: 20px 0;
+}
+
+.comm-name {
+  margin-top: 1.5rem;
+  color: #635353;
+}
+
+.experience-image,
+.tech-image {
+  width: 80px;
+  height: 80px;
+}
+a {
+  color: inherit;
+}
+
+.project-card {
+  width: 30%;
+  border: 1px solid rgb(122, 113, 113);
+  padding: 15px;
+  border-radius: 7px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.experience-card {
+  width: 30%;
+  border: 1px solid rgb(122, 113, 113);
+  padding: 15px;
+  border-radius: 7px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+#skill-row {
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .container-70 {
+    width: 100%;
+    margin: 7% auto;
+  }
+
+  .profile-picture {
+    max-width: 200px;
+    padding: 10px 0;
+  }
+  .secondary-image {
+    max-width: 800px;
+    padding: 20px 0;
+  }
+  body {
+    text-align: center;
+  }
+  .experience-image,
+  .tech-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 10px 0;
+  }
+  #skill-row {
+    text-align: center;
+  }
+  .experience-card {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .project-card {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .container-70 {
+    width: 100%;
+  }
+
+  .profile-picture {
+    max-width: 200px;
+    padding: 30px 0;
+  }
+  body {
+    text-align: center;
+  }
+  #skill-row {
+    text-align: center;
+  }
+}
